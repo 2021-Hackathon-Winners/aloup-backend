@@ -1,0 +1,15 @@
+runtime: nodejs
+env: flex
+
+handlers:
+- url: /.*
+  secure: always
+  script: auto
+
+manual_scaling:
+  instances: 1
+
+resources:
+  cpu: .90
+  memory_gb: 0.50
+  disk_size_gb: 10

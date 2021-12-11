@@ -1,0 +1,7 @@
+node_modules
+.vscode
+test.*
+config.json
+userimages
+.DS_Store
+build
